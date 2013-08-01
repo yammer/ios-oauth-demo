@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0D17831788025E00DFB39D /* YMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D17801788025E00DFB39D /* YMAppDelegate.m */; };
+		4F0D17841788025E00DFB39D /* YMSampleHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D17821788025E00DFB39D /* YMSampleHomeViewController.m */; };
+		4F3614FC1777CD9E00238846 /* yammer-tagline.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3614FA1777CD9E00238846 /* yammer-tagline.png */; };
+		4F3614FD1777CD9E00238846 /* yammer-tagline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3614FB1777CD9E00238846 /* yammer-tagline@2x.png */; };
+		4FFBD4B51777C17C00C2B71D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFBD4B41777C17C00C2B71D /* UIKit.framework */; };
+		4FFBD4B71777C17C00C2B71D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFBD4B61777C17C00C2B71D /* Foundation.framework */; };
+		4FFBD4B91777C17C00C2B71D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFBD4B81777C17C00C2B71D /* CoreGraphics.framework */; };
+		4FFBD4BF1777C17C00C2B71D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4BD1777C17C00C2B71D /* InfoPlist.strings */; };
+		4FFBD4C11777C17C00C2B71D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBD4C01777C17C00C2B71D /* main.m */; };
+		4FFBD4C71777C17C00C2B71D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4C61777C17C00C2B71D /* Default.png */; };
+		4FFBD4C91777C17C00C2B71D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4C81777C17C00C2B71D /* Default@2x.png */; };
+		4FFBD4CB1777C17C00C2B71D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4CA1777C17C00C2B71D /* Default-568h@2x.png */; };
+		4FFBD4D11777C17C00C2B71D /* HomeView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4CF1777C17C00C2B71D /* HomeView~iphone.xib */; };
+		4FFBD4D41777C17C00C2B71D /* HomeView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4D21777C17C00C2B71D /* HomeView~ipad.xib */; };
+		4FFBD4DF1777C58C00C2B71D /* blue-button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4DC1777C58C00C2B71D /* blue-button-bg.png */; };
+		9CCFB081936EA0DA9EDBFFC4 /* YMHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCFBE6DF7361DE83880B64E /* YMHTTPClient.m */; };
+		9CCFB45C2F0C51E6C7DB47F2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCFB69376D1B5E258760FAB /* Security.framework */; };
+		9CCFB4E961BFF542081C85F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9CCFBA70BCABA8904C1D0CD2 /* README.md */; };
+		9CCFB817A56ED2D00E347966 /* YMLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCFBAF8FE267919B95187E6 /* YMLoginController.m */; };
+		9CCFBEE5929599915B421AD2 /* YMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCFBE5A605038CE6CA4AB3A /* YMConstants.m */; };
+		B63C473017972775006415A2 /* NSURL+YMQueryParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C472F17972775006415A2 /* NSURL+YMQueryParameters.m */; };
+		E32C07D3FAA64D6A8E076C69 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8663232EC98470FBB410025 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A4536C17373482D98C767A3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		4F0D177F1788025E00DFB39D /* YMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAppDelegate.h; sourceTree = "<group>"; };
+		4F0D17801788025E00DFB39D /* YMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAppDelegate.m; sourceTree = "<group>"; };
+		4F0D17811788025E00DFB39D /* YMSampleHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSampleHomeViewController.h; sourceTree = "<group>"; };
+		4F0D17821788025E00DFB39D /* YMSampleHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMSampleHomeViewController.m; sourceTree = "<group>"; };
+		4F3614FA1777CD9E00238846 /* yammer-tagline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yammer-tagline.png"; sourceTree = "<group>"; };
+		4F3614FB1777CD9E00238846 /* yammer-tagline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yammer-tagline@2x.png"; sourceTree = "<group>"; };
+		4FFBD4B11777C17C00C2B71D /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFBD4B41777C17C00C2B71D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4FFBD4B61777C17C00C2B71D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4FFBD4B81777C17C00C2B71D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4FFBD4BC1777C17C00C2B71D /* ios-oauth-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios-oauth-demo-Info.plist"; sourceTree = "<group>"; };
+		4FFBD4BE1777C17C00C2B71D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FFBD4C01777C17C00C2B71D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FFBD4C21777C17C00C2B71D /* ios-oauth-demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-oauth-demo-Prefix.pch"; sourceTree = "<group>"; };
+		4FFBD4C61777C17C00C2B71D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4FFBD4C81777C17C00C2B71D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4FFBD4CA1777C17C00C2B71D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4FFBD4D01777C17C00C2B71D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/HomeView~iphone.xib"; sourceTree = "<group>"; };
+		4FFBD4D31777C17C00C2B71D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/HomeView~ipad.xib"; sourceTree = "<group>"; };
+		4FFBD4DC1777C58C00C2B71D /* blue-button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-button-bg.png"; sourceTree = "<group>"; };
+		9CCFB057A4A0796814C65E02 /* YMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMConstants.h; sourceTree = "<group>"; };
+		9CCFB342B66EA056FD84325B /* YMLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLoginController.h; sourceTree = "<group>"; };
+		9CCFB69376D1B5E258760FAB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9CCFB6D6E82658EE07F127E2 /* YMHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMHTTPClient.h; sourceTree = "<group>"; };
+		9CCFBA70BCABA8904C1D0CD2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = SOURCE_ROOT; };
+		9CCFBAF8FE267919B95187E6 /* YMLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLoginController.m; sourceTree = "<group>"; };
+		9CCFBE5A605038CE6CA4AB3A /* YMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMConstants.m; sourceTree = "<group>"; };
+		9CCFBE6DF7361DE83880B64E /* YMHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMHTTPClient.m; sourceTree = "<group>"; };
+		B63C472E17972775006415A2 /* NSURL+YMQueryParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+YMQueryParameters.h"; sourceTree = "<group>"; };
+		B63C472F17972775006415A2 /* NSURL+YMQueryParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+YMQueryParameters.m"; sourceTree = "<group>"; };
+		C8663232EC98470FBB410025 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FFBD4AE1777C17C00C2B71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFBD4B51777C17C00C2B71D /* UIKit.framework in Frameworks */,
+				4FFBD4B71777C17C00C2B71D /* Foundation.framework in Frameworks */,
+				4FFBD4B91777C17C00C2B71D /* CoreGraphics.framework in Frameworks */,
+				9CCFB45C2F0C51E6C7DB47F2 /* Security.framework in Frameworks */,
+				E32C07D3FAA64D6A8E076C69 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FFBD4A81777C17C00C2B71D = {
+			isa = PBXGroup;
+			children = (
+				9CCFB593BBC8B7BA2B51F3B2 /* OAuthSDK */,
+				9CCFB4318BB6A2545FCCE84D /* SampleApp */,
+				4FFBD4BB1777C17C00C2B71D /* Supporting Files */,
+				4FFBD4B31777C17C00C2B71D /* Frameworks */,
+				4FFBD4B21777C17C00C2B71D /* Products */,
+				9CCFBA70BCABA8904C1D0CD2 /* README.md */,
+				0A4536C17373482D98C767A3 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		4FFBD4B21777C17C00C2B71D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FFBD4B11777C17C00C2B71D /* SampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FFBD4B31777C17C00C2B71D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FFBD4B41777C17C00C2B71D /* UIKit.framework */,
+				4FFBD4B61777C17C00C2B71D /* Foundation.framework */,
+				4FFBD4B81777C17C00C2B71D /* CoreGraphics.framework */,
+				9CCFB69376D1B5E258760FAB /* Security.framework */,
+				C8663232EC98470FBB410025 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FFBD4BB1777C17C00C2B71D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FFBD4BC1777C17C00C2B71D /* ios-oauth-demo-Info.plist */,
+				4FFBD4BD1777C17C00C2B71D /* InfoPlist.strings */,
+				4FFBD4C01777C17C00C2B71D /* main.m */,
+				4FFBD4C21777C17C00C2B71D /* ios-oauth-demo-Prefix.pch */,
+				4FFBD4C61777C17C00C2B71D /* Default.png */,
+				4FFBD4C81777C17C00C2B71D /* Default@2x.png */,
+				4FFBD4CA1777C17C00C2B71D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = SampleApp;
+			sourceTree = SOURCE_ROOT;
+		};
+		4FFBD4DA1777C58C00C2B71D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4FFBD4DB1777C58C00C2B71D /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4FFBD4DB1777C58C00C2B71D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4F3614FA1777CD9E00238846 /* yammer-tagline.png */,
+				4F3614FB1777CD9E00238846 /* yammer-tagline@2x.png */,
+				4FFBD4DC1777C58C00C2B71D /* blue-button-bg.png */,
+			);
+			name = Images;
+			path = images;
+			sourceTree = "<group>";
+		};
+		9CCFB4318BB6A2545FCCE84D /* SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				4FFBD4DA1777C58C00C2B71D /* Resources */,
+				4F0D177F1788025E00DFB39D /* YMAppDelegate.h */,
+				4F0D17801788025E00DFB39D /* YMAppDelegate.m */,
+				4F0D17811788025E00DFB39D /* YMSampleHomeViewController.h */,
+				4F0D17821788025E00DFB39D /* YMSampleHomeViewController.m */,
+				4FFBD4CF1777C17C00C2B71D /* HomeView~iphone.xib */,
+				4FFBD4D21777C17C00C2B71D /* HomeView~ipad.xib */,
+			);
+			path = SampleApp;
+			sourceTree = SOURCE_ROOT;
+		};
+		9CCFB593BBC8B7BA2B51F3B2 /* OAuthSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9CCFB342B66EA056FD84325B /* YMLoginController.h */,
+				9CCFBAF8FE267919B95187E6 /* YMLoginController.m */,
+				9CCFB057A4A0796814C65E02 /* YMConstants.h */,
+				9CCFBE5A605038CE6CA4AB3A /* YMConstants.m */,
+				9CCFB6D6E82658EE07F127E2 /* YMHTTPClient.h */,
+				9CCFBE6DF7361DE83880B64E /* YMHTTPClient.m */,
+				B63C472E17972775006415A2 /* NSURL+YMQueryParameters.h */,
+				B63C472F17972775006415A2 /* NSURL+YMQueryParameters.m */,
+			);
+			path = OAuthSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FFBD4B01777C17C00C2B71D /* SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFBD4D71777C17C00C2B71D /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildPhases = (
+				0E0BEDB31AA64C9E8FCC14FC /* Check Pods Manifest.lock */,
+				4FFBD4AD1777C17C00C2B71D /* Sources */,
+				4FFBD4AE1777C17C00C2B71D /* Frameworks */,
+				4FFBD4AF1777C17C00C2B71D /* Resources */,
+				B20D2D72E05E4C75B5F47634 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleApp;
+			productName = YammerOAuth2SampleApp;
+			productReference = 4FFBD4B11777C17C00C2B71D /* SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FFBD4A91777C17C00C2B71D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Yammer, Inc.";
+			};
+			buildConfigurationList = 4FFBD4AC1777C17C00C2B71D /* Build configuration list for PBXProject "ios-oauth-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4FFBD4A81777C17C00C2B71D;
+			productRefGroup = 4FFBD4B21777C17C00C2B71D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FFBD4B01777C17C00C2B71D /* SampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FFBD4AF1777C17C00C2B71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFBD4BF1777C17C00C2B71D /* InfoPlist.strings in Resources */,
+				4FFBD4C71777C17C00C2B71D /* Default.png in Resources */,
+				4FFBD4C91777C17C00C2B71D /* Default@2x.png in Resources */,
+				4FFBD4CB1777C17C00C2B71D /* Default-568h@2x.png in Resources */,
+				4FFBD4D11777C17C00C2B71D /* HomeView~iphone.xib in Resources */,
+				4FFBD4D41777C17C00C2B71D /* HomeView~ipad.xib in Resources */,
+				4FFBD4DF1777C58C00C2B71D /* blue-button-bg.png in Resources */,
+				4F3614FC1777CD9E00238846 /* yammer-tagline.png in Resources */,
+				4F3614FD1777CD9E00238846 /* yammer-tagline@2x.png in Resources */,
+				9CCFB4E961BFF542081C85F7 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E0BEDB31AA64C9E8FCC14FC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B20D2D72E05E4C75B5F47634 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FFBD4AD1777C17C00C2B71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFBD4C11777C17C00C2B71D /* main.m in Sources */,
+				9CCFB817A56ED2D00E347966 /* YMLoginController.m in Sources */,
+				9CCFBEE5929599915B421AD2 /* YMConstants.m in Sources */,
+				9CCFB081936EA0DA9EDBFFC4 /* YMHTTPClient.m in Sources */,
+				4F0D17831788025E00DFB39D /* YMAppDelegate.m in Sources */,
+				4F0D17841788025E00DFB39D /* YMSampleHomeViewController.m in Sources */,
+				B63C473017972775006415A2 /* NSURL+YMQueryParameters.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FFBD4BD1777C17C00C2B71D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FFBD4BE1777C17C00C2B71D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4FFBD4CF1777C17C00C2B71D /* HomeView~iphone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FFBD4D01777C17C00C2B71D /* en */,
+			);
+			name = "HomeView~iphone.xib";
+			sourceTree = "<group>";
+		};
+		4FFBD4D21777C17C00C2B71D /* HomeView~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FFBD4D31777C17C00C2B71D /* en */,
+			);
+			name = "HomeView~ipad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FFBD4D51777C17C00C2B71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FFBD4D61777C17C00C2B71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FFBD4D81777C17C00C2B71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4536C17373482D98C767A3 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleApp/ios-oauth-demo-Prefix.pch";
+				INFOPLIST_FILE = "SampleApp/ios-oauth-demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4FFBD4D91777C17C00C2B71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4536C17373482D98C767A3 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleApp/ios-oauth-demo-Prefix.pch";
+				INFOPLIST_FILE = "SampleApp/ios-oauth-demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FFBD4AC1777C17C00C2B71D /* Build configuration list for PBXProject "ios-oauth-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFBD4D51777C17C00C2B71D /* Debug */,
+				4FFBD4D61777C17C00C2B71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFBD4D71777C17C00C2B71D /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFBD4D81777C17C00C2B71D /* Debug */,
+				4FFBD4D91777C17C00C2B71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FFBD4A91777C17C00C2B71D /* Project object */;
+}

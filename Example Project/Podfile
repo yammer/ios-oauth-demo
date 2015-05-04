@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+
+target 'SampleApp' do
+
+pod 'YammerSDK', "~> 1.0"
+
+end
+

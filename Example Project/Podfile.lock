@@ -1,0 +1,20 @@
+PODS:
+  - AFNetworking (1.3.4)
+  - PDKeychainBindingsController (0.0.1)
+  - YammerSDK (1.0):
+    - AFNetworking (~> 1.3.3)
+    - PDKeychainBindingsController
+
+DEPENDENCIES:
+  - YammerSDK (from `../`)
+
+EXTERNAL SOURCES:
+  YammerSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  PDKeychainBindingsController: fa8cb3cf99f2ea9240d61066ed0549f34e2cec3c
+  YammerSDK: 56581f01637e8b575255c7452c3c08ba410100c4
+
+COCOAPODS: 0.37.0

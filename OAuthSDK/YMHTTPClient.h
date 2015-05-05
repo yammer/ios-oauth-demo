@@ -5,13 +5,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFHTTPClient.h"
+#import "AFNetworking.h"
 
 static NSString *const STATE_PARAM = @"state";
 
 /**
  Represents an object that contains a queue of HTTP operations.
- At the moment, this is essentially a lightweight wrapper around AFHTTPClient.
+ At the moment, this is essentially a lightweight wrapper around AFHTTPRequestOperationManager.
  */
 @interface YMHTTPClient : NSObject
 @property (nonatomic, strong) NSString *authToken;

@@ -32,7 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A4536C17373482D98C767A3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		04F07AE353B7491B6EE66771 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4F0D177F1788025E00DFB39D /* YMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAppDelegate.h; sourceTree = "<group>"; };
 		4F0D17801788025E00DFB39D /* YMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAppDelegate.m; sourceTree = "<group>"; };
 		4F0D17811788025E00DFB39D /* YMSampleHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSampleHomeViewController.h; sourceTree = "<group>"; };
@@ -53,6 +53,7 @@
 		4FFBD4D01777C17C00C2B71D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/HomeView~iphone.xib"; sourceTree = "<group>"; };
 		4FFBD4D31777C17C00C2B71D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/HomeView~ipad.xib"; sourceTree = "<group>"; };
 		4FFBD4DC1777C58C00C2B71D /* blue-button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-button-bg.png"; sourceTree = "<group>"; };
+		6D7A16839373520DD3611D98 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9CCFB057A4A0796814C65E02 /* YMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMConstants.h; sourceTree = "<group>"; };
 		9CCFB342B66EA056FD84325B /* YMLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLoginController.h; sourceTree = "<group>"; };
 		9CCFB69376D1B5E258760FAB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -82,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1122FD5B408CE698C57AEA25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D7A16839373520DD3611D98 /* Pods.debug.xcconfig */,
+				04F07AE353B7491B6EE66771 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4FFBD4A81777C17C00C2B71D = {
 			isa = PBXGroup;
 			children = (
@@ -91,7 +101,7 @@
 				4FFBD4B31777C17C00C2B71D /* Frameworks */,
 				4FFBD4B21777C17C00C2B71D /* Products */,
 				9CCFBA70BCABA8904C1D0CD2 /* README.md */,
-				0A4536C17373482D98C767A3 /* Pods.xcconfig */,
+				1122FD5B408CE698C57AEA25 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -275,7 +285,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -385,7 +395,7 @@
 		};
 		4FFBD4D81777C17C00C2B71D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A4536C17373482D98C767A3 /* Pods.xcconfig */;
+			baseConfigurationReference = 6D7A16839373520DD3611D98 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleApp/ios-oauth-demo-Prefix.pch";
@@ -397,7 +407,7 @@
 		};
 		4FFBD4D91777C17C00C2B71D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A4536C17373482D98C767A3 /* Pods.xcconfig */;
+			baseConfigurationReference = 04F07AE353B7491B6EE66771 /* Pods.release.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleApp/ios-oauth-demo-Prefix.pch";

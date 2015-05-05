@@ -48,13 +48,21 @@ NSString * const YAMMER_KEYCHAIN_STATE_KEY = @"yammerState";
     NSDictionary *params = @{@"client_id": YAMMER_APP_CLIENT_ID,
                              @"redirect_uri": YAMMER_AUTH_REDIRECT_URI,
                              @"state": stateParam};
-    
-    NSString *query = AFQueryStringFromParametersWithEncoding(params, NSUTF8StringEncoding);
-    NSString *urlString = [NSString stringWithFormat:@"%@/dialog/oauth?%@", YAMMER_BASE_URL, query];
+
+    NSString *baseUrlString = [NSString stringWithFormat:@"%@/dialog/oauth", YAMMER_BASE_URL];
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:baseUrlString]];
+
+    AFHTTPRequestSerializer * requestSerializer = [[AFHTTPRequestSerializer alloc] init];
+    NSError *error;
+    NSURLRequest *serializedRequest = [requestSerializer requestBySerializingRequest:request withParameters:params error:&error];
+
+    if (error) {
+        NSLog(@"Failed to serialize request: %@", error);
+    }
 
     // Yammer SDK: This will launch mobile (iOS) Safari and begin the two-step login process.
     // The app delegate will intercept the callback from the login page.  See app delegate for method call.
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
+    [[UIApplication sharedApplication] openURL:serializedRequest.URL];
 }
 
 - (NSString *)uniqueIdentifier

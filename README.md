@@ -1,3 +1,5 @@
+**This version of the SDK is deprecated, and will not be supported in the future. Please use the new version located at: http://github.com/yammer/ios-yammer-sdk**
+
 Yammer API Sample iOS Application
 =================================
 

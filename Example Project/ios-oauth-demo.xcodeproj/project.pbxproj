@@ -7,32 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F0D17831788025E00DFB39D /* YMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D17801788025E00DFB39D /* YMAppDelegate.m */; };
-		4F0D17841788025E00DFB39D /* YMSampleHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D17821788025E00DFB39D /* YMSampleHomeViewController.m */; };
+		3DC963D11AF81B9B009D3BCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBD4C01777C17C00C2B71D /* main.m */; };
+		3DC963D21AF81BA8009D3BCC /* YMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D17801788025E00DFB39D /* YMAppDelegate.m */; };
+		3DC963D31AF81BB2009D3BCC /* YMSampleHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D17821788025E00DFB39D /* YMSampleHomeViewController.m */; };
 		4F3614FC1777CD9E00238846 /* yammer-tagline.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3614FA1777CD9E00238846 /* yammer-tagline.png */; };
 		4F3614FD1777CD9E00238846 /* yammer-tagline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3614FB1777CD9E00238846 /* yammer-tagline@2x.png */; };
 		4FFBD4B51777C17C00C2B71D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFBD4B41777C17C00C2B71D /* UIKit.framework */; };
 		4FFBD4B71777C17C00C2B71D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFBD4B61777C17C00C2B71D /* Foundation.framework */; };
 		4FFBD4B91777C17C00C2B71D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFBD4B81777C17C00C2B71D /* CoreGraphics.framework */; };
 		4FFBD4BF1777C17C00C2B71D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4BD1777C17C00C2B71D /* InfoPlist.strings */; };
-		4FFBD4C11777C17C00C2B71D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBD4C01777C17C00C2B71D /* main.m */; };
 		4FFBD4C71777C17C00C2B71D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4C61777C17C00C2B71D /* Default.png */; };
 		4FFBD4C91777C17C00C2B71D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4C81777C17C00C2B71D /* Default@2x.png */; };
 		4FFBD4CB1777C17C00C2B71D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4CA1777C17C00C2B71D /* Default-568h@2x.png */; };
 		4FFBD4D11777C17C00C2B71D /* HomeView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4CF1777C17C00C2B71D /* HomeView~iphone.xib */; };
 		4FFBD4D41777C17C00C2B71D /* HomeView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4D21777C17C00C2B71D /* HomeView~ipad.xib */; };
 		4FFBD4DF1777C58C00C2B71D /* blue-button-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBD4DC1777C58C00C2B71D /* blue-button-bg.png */; };
-		9CCFB081936EA0DA9EDBFFC4 /* YMHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCFBE6DF7361DE83880B64E /* YMHTTPClient.m */; };
+		8B335DDCD82CEA84CF5883F7 /* libPods-SampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3ED2D3A2C559891AA1BB4B /* libPods-SampleApp.a */; };
 		9CCFB45C2F0C51E6C7DB47F2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCFB69376D1B5E258760FAB /* Security.framework */; };
-		9CCFB4E961BFF542081C85F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9CCFBA70BCABA8904C1D0CD2 /* README.md */; };
-		9CCFB817A56ED2D00E347966 /* YMLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCFBAF8FE267919B95187E6 /* YMLoginController.m */; };
-		9CCFBEE5929599915B421AD2 /* YMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCFBE5A605038CE6CA4AB3A /* YMConstants.m */; };
-		B63C473017972775006415A2 /* NSURL+YMQueryParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B63C472F17972775006415A2 /* NSURL+YMQueryParameters.m */; };
-		E32C07D3FAA64D6A8E076C69 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8663232EC98470FBB410025 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04F07AE353B7491B6EE66771 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		15542C73847CDD99F3339428 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4F0D177F1788025E00DFB39D /* YMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAppDelegate.h; sourceTree = "<group>"; };
 		4F0D17801788025E00DFB39D /* YMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAppDelegate.m; sourceTree = "<group>"; };
 		4F0D17811788025E00DFB39D /* YMSampleHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMSampleHomeViewController.h; sourceTree = "<group>"; };
@@ -53,18 +48,9 @@
 		4FFBD4D01777C17C00C2B71D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/HomeView~iphone.xib"; sourceTree = "<group>"; };
 		4FFBD4D31777C17C00C2B71D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/HomeView~ipad.xib"; sourceTree = "<group>"; };
 		4FFBD4DC1777C58C00C2B71D /* blue-button-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-button-bg.png"; sourceTree = "<group>"; };
-		6D7A16839373520DD3611D98 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		9CCFB057A4A0796814C65E02 /* YMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMConstants.h; sourceTree = "<group>"; };
-		9CCFB342B66EA056FD84325B /* YMLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMLoginController.h; sourceTree = "<group>"; };
+		9C3ED2D3A2C559891AA1BB4B /* libPods-SampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CCFB69376D1B5E258760FAB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		9CCFB6D6E82658EE07F127E2 /* YMHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMHTTPClient.h; sourceTree = "<group>"; };
-		9CCFBA70BCABA8904C1D0CD2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = SOURCE_ROOT; };
-		9CCFBAF8FE267919B95187E6 /* YMLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMLoginController.m; sourceTree = "<group>"; };
-		9CCFBE5A605038CE6CA4AB3A /* YMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMConstants.m; sourceTree = "<group>"; };
-		9CCFBE6DF7361DE83880B64E /* YMHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMHTTPClient.m; sourceTree = "<group>"; };
-		B63C472E17972775006415A2 /* NSURL+YMQueryParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+YMQueryParameters.h"; sourceTree = "<group>"; };
-		B63C472F17972775006415A2 /* NSURL+YMQueryParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+YMQueryParameters.m"; sourceTree = "<group>"; };
-		C8663232EC98470FBB410025 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7B5304393E3E817ABE70D3 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,18 +62,18 @@
 				4FFBD4B71777C17C00C2B71D /* Foundation.framework in Frameworks */,
 				4FFBD4B91777C17C00C2B71D /* CoreGraphics.framework in Frameworks */,
 				9CCFB45C2F0C51E6C7DB47F2 /* Security.framework in Frameworks */,
-				E32C07D3FAA64D6A8E076C69 /* libPods.a in Frameworks */,
+				8B335DDCD82CEA84CF5883F7 /* libPods-SampleApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1122FD5B408CE698C57AEA25 /* Pods */ = {
+		0F5208EA4A9D4107D8BBA29E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6D7A16839373520DD3611D98 /* Pods.debug.xcconfig */,
-				04F07AE353B7491B6EE66771 /* Pods.release.xcconfig */,
+				15542C73847CDD99F3339428 /* Pods-SampleApp.debug.xcconfig */,
+				AC7B5304393E3E817ABE70D3 /* Pods-SampleApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -95,13 +81,11 @@
 		4FFBD4A81777C17C00C2B71D = {
 			isa = PBXGroup;
 			children = (
-				9CCFB593BBC8B7BA2B51F3B2 /* OAuthSDK */,
 				9CCFB4318BB6A2545FCCE84D /* SampleApp */,
 				4FFBD4BB1777C17C00C2B71D /* Supporting Files */,
 				4FFBD4B31777C17C00C2B71D /* Frameworks */,
 				4FFBD4B21777C17C00C2B71D /* Products */,
-				9CCFBA70BCABA8904C1D0CD2 /* README.md */,
-				1122FD5B408CE698C57AEA25 /* Pods */,
+				0F5208EA4A9D4107D8BBA29E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,7 +104,7 @@
 				4FFBD4B61777C17C00C2B71D /* Foundation.framework */,
 				4FFBD4B81777C17C00C2B71D /* CoreGraphics.framework */,
 				9CCFB69376D1B5E258760FAB /* Security.framework */,
-				C8663232EC98470FBB410025 /* libPods.a */,
+				9C3ED2D3A2C559891AA1BB4B /* libPods-SampleApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,21 +156,6 @@
 			);
 			path = SampleApp;
 			sourceTree = SOURCE_ROOT;
-		};
-		9CCFB593BBC8B7BA2B51F3B2 /* OAuthSDK */ = {
-			isa = PBXGroup;
-			children = (
-				9CCFB342B66EA056FD84325B /* YMLoginController.h */,
-				9CCFBAF8FE267919B95187E6 /* YMLoginController.m */,
-				9CCFB057A4A0796814C65E02 /* YMConstants.h */,
-				9CCFBE5A605038CE6CA4AB3A /* YMConstants.m */,
-				9CCFB6D6E82658EE07F127E2 /* YMHTTPClient.h */,
-				9CCFBE6DF7361DE83880B64E /* YMHTTPClient.m */,
-				B63C472E17972775006415A2 /* NSURL+YMQueryParameters.h */,
-				B63C472F17972775006415A2 /* NSURL+YMQueryParameters.m */,
-			);
-			path = OAuthSDK;
-			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -251,7 +220,6 @@
 				4FFBD4DF1777C58C00C2B71D /* blue-button-bg.png in Resources */,
 				4F3614FC1777CD9E00238846 /* yammer-tagline.png in Resources */,
 				4F3614FD1777CD9E00238846 /* yammer-tagline@2x.png in Resources */,
-				9CCFB4E961BFF542081C85F7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +253,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -295,13 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FFBD4C11777C17C00C2B71D /* main.m in Sources */,
-				9CCFB817A56ED2D00E347966 /* YMLoginController.m in Sources */,
-				9CCFBEE5929599915B421AD2 /* YMConstants.m in Sources */,
-				9CCFB081936EA0DA9EDBFFC4 /* YMHTTPClient.m in Sources */,
-				4F0D17831788025E00DFB39D /* YMAppDelegate.m in Sources */,
-				4F0D17841788025E00DFB39D /* YMSampleHomeViewController.m in Sources */,
-				B63C473017972775006415A2 /* NSURL+YMQueryParameters.m in Sources */,
+				3DC963D31AF81BB2009D3BCC /* YMSampleHomeViewController.m in Sources */,
+				3DC963D21AF81BA8009D3BCC /* YMAppDelegate.m in Sources */,
+				3DC963D11AF81B9B009D3BCC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +359,7 @@
 		};
 		4FFBD4D81777C17C00C2B71D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D7A16839373520DD3611D98 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 15542C73847CDD99F3339428 /* Pods-SampleApp.debug.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleApp/ios-oauth-demo-Prefix.pch";
@@ -407,7 +371,7 @@
 		};
 		4FFBD4D91777C17C00C2B71D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04F07AE353B7491B6EE66771 /* Pods.release.xcconfig */;
+			baseConfigurationReference = AC7B5304393E3E817ABE70D3 /* Pods-SampleApp.release.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleApp/ios-oauth-demo-Prefix.pch";

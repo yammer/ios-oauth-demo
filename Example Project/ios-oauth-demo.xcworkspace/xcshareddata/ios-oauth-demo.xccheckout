@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5E0C8F9A-6816-43A2-B3DF-25203540F64D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ios-oauth-demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6E3846885BAE2A8534F4B9A71036E40BAA7CACDA</key>
+		<string>https://github.com/yammer/ios-oauth-demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example Project/ios-oauth-demo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6E3846885BAE2A8534F4B9A71036E40BAA7CACDA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yammer/ios-oauth-demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6E3846885BAE2A8534F4B9A71036E40BAA7CACDA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6E3846885BAE2A8534F4B9A71036E40BAA7CACDA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-oauth-demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
